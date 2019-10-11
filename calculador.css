@@ -1,0 +1,63 @@
+* {
+    text-align: center;
+    font-family: 'Georgia';
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        'block1'
+        'block2'
+        'block3';
+}
+
+h1 {
+    font-family: 'Cambria';
+    font-size: 2.5em;
+    
+}
+
+#block1 {
+    grid-area: block1;
+}
+
+#block2 {
+    grid-area: block2;
+}
+
+#block3 {
+    grid-area: block3;
+}
+
+.block {
+    font-size: 1.3em;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgb(255, 241, 225);
+    height: 150px;
+    width: 290px;
+    border: solid 3px rgb(202, 202, 202);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+input {
+    font-family: 'Arial';
+    font-size: 2em;
+    width: 90px;
+}
+
+button {
+    font-size: 2em;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgb(250, 99, 40);;
+    font-family: 'Impact';
+}
+
+.finalAnswer {
+    font-size: 5em;
+    margin-top: 300px;
+}
